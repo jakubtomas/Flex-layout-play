@@ -1,0 +1,63 @@
+body {
+  background-color: #ccc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid purple;
+  display: flex;
+  max-width: 75vw;
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+}
+.column {
+  border: 2px solid forestgreen;
+  width: 25%;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+/*TABLE SECTION*/
+
+td {
+  text-align: right;
+  width: 33%;
+}
+td,
+th,
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+
+li {
+  background-color: #fff;
+}
+a {
+  background-color: red;
+  display: block; /* makes the a a block element */
+  width: 100%; /* takes up the full width of the li */
+  height: 100%; /* takes up the full height of the li */
+  /* removes the default underline */
+}
